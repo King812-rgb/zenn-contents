@@ -91,8 +91,8 @@ For Tailwind CSS v4.0.0 and above, it should be installed as a plugin using Vite
 reference : https://tailwindcss.com/docs/installation/using-postcss
 In my case, I resolved the issue by following these steps:
 
-1. Ensure PostCSS is properly configured with `postcss.config.js`
-2. Verify that Tailwind CSS are listed as PostCSS plugins in `postcss.config.js`
+1. Ensure PostCSS is properly configured with `postcss.config.js`.
+2. Verify that Tailwind CSS are listed as PostCSS plugins in `postcss.config.js`.
    （tailwind.config.js seems not neccesaary.）
 
 ```js
