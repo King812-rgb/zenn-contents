@@ -87,9 +87,21 @@ When using the Tailwind style "mb-20" in the child page (app/page.tsx), the foll
 ## Solution
 
 The issue was caused by incorrect configuration.
-For Tailwind CSS v4.0.0 and above, it should be installed as a plugin using Vite.
-I resolved the issue by following the official documentation.
-https://tailwindcss.com/docs/installation/using-vite
+For Tailwind CSS v4.0.0 and above, it should be installed as a plugin using Vite or postcss.
+reference : https://tailwindcss.com/docs/installation/using-postcss
+In my case, I resolved the issue by following these steps:
+
+1. Ensure PostCSS is properly configured with `postcss.config.js`
+2. Verify that Tailwind CSS are listed as PostCSS plugins in `postcss.config.js`
+   （tailwind.config.js seems not neccesaary.）
+
+```js
+export default {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
+```
 
 ## Conclusion
 
@@ -98,5 +110,5 @@ https://tailwindcss.com/docs/installation/using-vite
 
 ## References
 
-- https://tailwindcss.com/docs/installation/using-vite
+- https://tailwindcss.com/docs/installation/using-postcss
 - https://blog.ashcolor.jp/blog/programming/tailwind-css-v4-install

@@ -1,27 +1,28 @@
 ---
-title: ""
+title: "XXX"
 emoji: "🤔"
 type: "tech"
-topics: ["XXX", "YYY"]
-published: false
-date: "2025.03.08"
+topics: ["Tailwind CSS", "Next.js"]
+published: true
+date: "2025.03.24"
 ---
 
-## はじめに
+## About
 
+## Situation
 
+### 1. Install Packages
 
-## 課題
+### 2. Create tailwind.config.js
 
-モノリスは一般的なアプリーケーションアーキテクチャで 1 つのアプリに複数の機能が存在するアーキテクチャとなります。
-Django, Rails のようなフレームワークで作成されたアプリに多いです。
+### 3. Create global.css
 
-## 解決方法
+### 4. Import global.css in app/layout.tsx
 
-あああ
+## Issue
 
-## 終わりに
+## Solution
 
-コメント
+## Conclusion
 
-## 参考記事
+## References
