@@ -1,5 +1,5 @@
 ---
-title: "Tailwind CSS Installation Issue"
+title: "Tailwind CSS Configuration Issue"
 emoji: "🤔"
 type: "tech"
 topics: ["Tailwind CSS", "Next.js"]
